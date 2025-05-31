@@ -1,0 +1,12 @@
+android {
+    defaultConfig {
+        applicationId "com.acanfora.derosa.cinetrack"
+        minSdkVersion 21
+        targetSdkVersion 33
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        buildConfigField "String", "API_KEY", ""4174293bab48b15fd753e981cfb90e86""
+    }
+}
